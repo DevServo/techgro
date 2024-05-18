@@ -1,0 +1,1 @@
+core.autocrlf = input  # Replace "input" with "crlf" or "lf" as needed
