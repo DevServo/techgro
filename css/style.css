@@ -44,6 +44,7 @@ li {
     align-items: center;
     z-index: 1;
     font-family: 'Poetsen One', sans-serif;
+    height: 100vh;
 }
 
 a {
@@ -101,10 +102,11 @@ a {
     color: rgb(255, 255, 255);
     border: 1px sloid black;
     border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 0.3em;
+    padding: .25em 1em;
+    font-size: 0.3em !important;
     cursor: pointer;
-    margin-top: 300px;
+    bottom: 20vh;
+   
 }
 
 
@@ -408,7 +410,7 @@ q {
 }
 
 .team__img:nth-child(1) {
-    background-image: url(../images//team/Baber.jpeg);
+    background-image: url(../images//team/baber.jpeg);
 
 }
 
@@ -749,7 +751,7 @@ footer a {
 @media only screen and (max-width: 390px) {
     /* Adjustments for smaller screens */
     .container {
-        font-size: 3em; /* Decrease font size for smaller screens */
+        font-size: 2.5em; /* Decrease font size for smaller screens */
     }
     
     .tag-logo {
@@ -759,6 +761,7 @@ footer a {
     .explore-button {
         margin-top: 100px; /* Adjust button position for smaller screens */
         font-size: 0.15em; /* Decrease font size for smaller screens */
+        bottom: 35vh;
     }
 
     .footer {
@@ -767,6 +770,7 @@ footer a {
 
     .main {
         font-size: 10px; /* Decrease font size for smaller screens */
+       
     }
 
     .qoute {
@@ -784,6 +788,15 @@ footer a {
     .card-img, .card-vision-img, .card-mission-img {
         max-width: 100%; /* Make images responsive */
         height: auto; /* Ensure images adjust height proportionally */
+    }
+
+    .team__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        
     }
 }
 
