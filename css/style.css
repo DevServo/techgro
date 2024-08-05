@@ -410,24 +410,24 @@ q {
 }
 
 .team__img:nth-child(1) {
-    background-image: url(../images//team/baber.jpeg);
+    background-image: url(../images//team/baber.jpg);
 
 }
 
 .team__img:nth-child(2) {
-    background-image: url(../images//team/rizwan.jpeg);
+    background-image: url(../images//team/rizwan.jpg);
 }
 
 .team__img:nth-child(3) {
-    background-image: url(../images/team/haris.jpeg);
+    background-image: url(../images/team/haris.jpg);
 }
 
 .team__img:nth-child(4) {
-    background-image: url(../images/team/shahdab.jpeg);
+    background-image: url(../images/team/shahdab.jpg);
 }
 
 .team__img:nth-child(5) {
-    background-image: url(../images/team/fakhar.jpeg);
+    background-image: url(../images/team/fakhar.jpg);
 }
 .team__img:hover {
     width: 300px;
